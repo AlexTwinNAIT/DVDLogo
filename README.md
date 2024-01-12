@@ -45,6 +45,25 @@ Here is a visual representation, just imagine the blue box is the DVD logo, and 
 
 ![Explaining how it works with visual aid](https://github.com/AlexTwinNAIT/DVDLogo/blob/main/content/CallmeDonTheWayIBeMSPainting.png)
 
+---
+
+## 2. Reflecting the tragectory of the DVD Logo
+
+Okay so after reading this [StackOverflow](https://math.stackexchange.com/questions/13261/how-to-get-a-reflection-vector) post it gave me the formula for reflecting a vector.
+
+- d Is the Logo's position 1 frame prior (just before impact)
+- r is the reflected vector
+- n is the normal is the wall we'd be hitting.
+- theta is the degrees between the normal's direction, and the logo's pre-hit direction.
+
+![Vector Math representation](https://i.stack.imgur.com/IQa15.png)
+
+>   r=d−2(d⋅n)n
+
+
+currently the program doesn't do that! It just bounces back and forth on the same tragectory! I gotta figure out how to reflect it...
+
+
 
 ## Resources/References
 
