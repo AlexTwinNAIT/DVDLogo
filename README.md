@@ -52,3 +52,4 @@ Here is where i'll list all my resources for this little project, maybe also som
 - Commit names are references to Heaven Pierce Her tracks.
 - How to add content and by extention image sprites to the project [here](https://docs.MonoGame.net/articles/getting_started/4_adding_content.html)
 - [DVD Logo](https://freebiesupply.com/logos/dvd-logo/)
+- [CIS580, Intro to Monogame](https://textbooks.cs.ksu.edu/cis580/01-intro-to-monogame/03-the-game-window/index.html#:~:text=When%20working%20in%202D%2C%20MonoGame,the%20Y-axis%20increases%20downward.)
