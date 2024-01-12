@@ -43,7 +43,7 @@ if (_logoPosition.X > ScreenSize.X - _dvdLogo.Width || _logoPosition.X < 0 || _l
 ---
 Here is a visual representation, just imagine the blue box is the DVD logo, and the red dot is both 0,0 and the blue box's position in MonoGame. The black border is the actual hitbox derived from the if statement above this text. The red border is the actual screen size. *(I'm sorry my measurements didn't line up.)*
 
-![Explaining how it works with visual aid](../DVDLogo/content/CallmeDonTheWayIBeMSPainting.png)
+![Explaining how it works with visual aid]([../DVDLogo/content/CallmeDonTheWayIBeMSPainting.png](https://github.com/AlexTwinNAIT/DVDLogo/blob/main/content/CallmeDonTheWayIBeMSPainting.png))
 
 
 ## Resources/References
