@@ -95,7 +95,7 @@ public struct Normals
 
 A normal vector is a vector that represents an object's surface orientation!
 
-Consult the visual aid that I drew in around 5 seconds. VVVV
+Consult the visual aid that I drew in around 5 seconds. VVVV The red lines are the normal vectors for each side.
 
 ![Visual Aid 3](https://i.imgur.com/3V0BU7L.png)
 
