@@ -116,4 +116,4 @@ Here is where i'll list all my resources for this little project, maybe also som
 - [DVD Logo](https://freebiesupply.com/logos/dvd-logo/)
 - [CIS580, Intro to Monogame](https://textbooks.cs.ksu.edu/cis580/01-intro-to-monogame/03-the-game-window/index.html#:~:text=When%20working%20in%202D%2C%20MonoGame,the%20Y-axis%20increases%20downward.)
 - Credits to Matthew (???) for telling me I'm bad at math.
-- [DVD]
+- [DVD](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwi2iu6HptyDAxXPMjQIHWJGD7IQwqsBegQICBAF&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D5mGuCdlCcNM&usg=AOvVaw390vA2FGn3dUwTQQjSW-yT&opi=89978449)
