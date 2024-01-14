@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QlDf+0eHvxH0FJ5M7mkR49LEC8QuqHL9KLtLchN63b/BEcKY3QGe0hNekQFWBtvyiIR+dkMQK6mB/WxeO9MB+Q==",
+  "dgSpecHash": "1jj/46jykjCnA8oCHA2q+gufqTo1hZUK4etC54p8teAMSK46ezIy1VBeaPZrDkOYqAIzfD+RzLKhMiq3xJ8xKg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\alexb\\OneDrive\\Documents\\GitHub\\DVD\\DVDLogo\\DVDLogo\\DVDLogo.csproj",
+  "projectFilePath": "E:\\VersionControl\\DVDLogo\\DVDLogo\\DVDLogo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alexb\\.nuget\\packages\\libuv\\1.9.1\\libuv.1.9.1.nupkg.sha512",
     "C:\\Users\\alexb\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\1.1.0\\microsoft.codeanalysis.analyzers.1.1.0.nupkg.sha512",
@@ -124,7 +124,11 @@
     "C:\\Users\\alexb\\.nuget\\packages\\system.xml.xdocument\\4.0.11\\system.xml.xdocument.4.0.11.nupkg.sha512",
     "C:\\Users\\alexb\\.nuget\\packages\\system.xml.xmldocument\\4.0.1\\system.xml.xmldocument.4.0.1.nupkg.sha512",
     "C:\\Users\\alexb\\.nuget\\packages\\system.xml.xpath\\4.0.1\\system.xml.xpath.4.0.1.nupkg.sha512",
-    "C:\\Users\\alexb\\.nuget\\packages\\system.xml.xpath.xdocument\\4.0.1\\system.xml.xpath.xdocument.4.0.1.nupkg.sha512"
+    "C:\\Users\\alexb\\.nuget\\packages\\system.xml.xpath.xdocument\\4.0.1\\system.xml.xpath.xdocument.4.0.1.nupkg.sha512",
+    "C:\\Users\\alexb\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.26\\microsoft.windowsdesktop.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\alexb\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.26\\microsoft.netcore.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\alexb\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.26\\microsoft.aspnetcore.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\alexb\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.26\\microsoft.netcore.app.host.win-x64.6.0.26.nupkg.sha512"
   ],
   "logs": []
 }

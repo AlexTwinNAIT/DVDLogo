@@ -1,5 +1,7 @@
 # DVD Logo Coding Adventure - Alex Twin
 
+### !!! Slight epilespy warning: Sometimes when the logo hits the corner it bounces around 20 times per second, causing the logo to change color every time it bounces. !!!
+
 ## What is this project?
 
 Basically I heard that our first lesson in DMIT1514 reminded us of the DVD Logo screensaver thing. So I decided I'll just remake it in MonoGame
@@ -7,6 +9,10 @@ Basically I heard that our first lesson in DMIT1514 reminded us of the DVD Logo 
 ## Why did I do this?
 
 bored.
+
+## Okay how do I download and run this?
+
+Just check out [Releases](https://github.com/AlexTwinNAIT/DVDLogo/releases/tag/WidePosting) and download as a .zip file, extract and run DVDLogo.exe
 
 ## Discoveries/ Explanations
 
@@ -47,7 +53,7 @@ Here is a visual representation, just imagine the blue box is the DVD logo, and 
 
 ---
 
-## 2. Reflecting the tragectory of the DVD Logo
+### 2. Reflecting the tragectory of the DVD Logo
 
 Okay so after reading this [StackOverflow](https://math.stackexchange.com/questions/13261/how-to-get-a-reflection-vector) post it gave me the formula for reflecting a vector.
 
@@ -58,17 +64,54 @@ Okay so after reading this [StackOverflow](https://math.stackexchange.com/questi
 
 ![Vector Math representation](https://i.stack.imgur.com/IQa15.png)
 
->   r=d−2(d⋅n)n
+>   r=d-2(d*n)n
+
+So fun fact, MonoGame has a reflect function built in called: `Vector2.Reflect()` So I dont need to hardcode it.
+
+problem is that I don't actually have the normal values however after consolting a friend, I decided to  just hard code the normal values, being as we're inside a square and not an abstract shape it's not that difficult to hard code them as there's only four sides.
+
+### So here is the normal vectors:
+
+**as a visual aid:**
+
+![Visual Aid 2](https://i.imgur.com/qTz55EJ.png)
+
+*Remember that in MonoGame the X value increases the more right-wards you are in the screen. The Y Values increases the more downwards you go.*
+
+**in code:**
+
+```cs
+public struct Normals
+{
+    public static readonly Vector2 top = new Vector2(0, -1); // faces down
+    public static readonly Vector2 bottom = new Vector2(0, 1); // faces up
+    public static readonly Vector2 left = new Vector2(1, 0); // faces right
+    public static readonly Vector2 right = new Vector2(-1, 0); // faces left
+}
+```
+**What do you mean? I don't understand what a normal vector is!**
+
+A normal vector is a vector that represents an object's surface orientation!
+
+Consult the visual aid that I drew in around 5 seconds. VVVV
+
+![Visual Aid 3](https://i.imgur.com/3V0BU7L.png)
+
+*(I'm sorry I'm not able to describe what a normal vector is, good news is for us game programmers is that we actually have a class where we learn math and physics... for games...)*
 
 
-currently the program doesn't do that! It just bounces back and forth on the same tragectory! I gotta figure out how to reflect it...
+So now that we have the normal values we can properly reflect our logo's trajectory,  and now we're finished.
+
+---
 
 
 
-## Resources/References
+## Resources/References/Credits
 
 Here is where i'll list all my resources for this little project, maybe also some coding snippets following my reasons of understanding this.
 - Commit names are references to Heaven Pierce Her tracks.
 - How to add content and by extention image sprites to the project [here](https://docs.MonoGame.net/articles/getting_started/4_adding_content.html)
 - [DVD Logo](https://freebiesupply.com/logos/dvd-logo/)
 - [CIS580, Intro to Monogame](https://textbooks.cs.ksu.edu/cis580/01-intro-to-monogame/03-the-game-window/index.html#:~:text=When%20working%20in%202D%2C%20MonoGame,the%20Y-axis%20increases%20downward.)
+- Credits to Matthew (???) for telling me I'm bad at math.
+- [DVD]

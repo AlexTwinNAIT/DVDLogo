@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DVDLogo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+90cb7daabeafccb722c4178acb585f934eab2a1a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+55022f0cf9864c9355ed8091cd9e180c2748f59b")]
 [assembly: System.Reflection.AssemblyProductAttribute("DVDLogo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DVDLogo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -14,6 +14,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = DVDLogo
-build_property.ProjectDir = C:\Users\alexb\OneDrive\Documents\GitHub\DVD\DVDLogo\DVDLogo\
+build_property.ProjectDir = E:\VersionControl\DVDLogo\DVDLogo\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

@@ -4,7 +4,7 @@
   <Platform>Windows</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/alexb/OneDrive/Documents/GitHub/DVD/DVDLogo/DVDLogo/Content/dvd-logo.png</File>
+    <File>E:/VersionControl/DVDLogo/DVDLogo/Content/dvd-logo.png</File>
   </SourceFiles>
   <DestFiles>
     <File xsi:nil="true" />
