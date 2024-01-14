@@ -14,6 +14,8 @@ bored.
 
 Just check out [Releases](https://github.com/AlexTwinNAIT/DVDLogo/releases/tag/WidePosting) and download as a .zip file, extract and run DVDLogo.exe
 
+Make sure you have [.NET 6.0 Desktop Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-6.0.26-windows-x64-installer?cid=getdotnetcore) installed.
+
 ## Discoveries/ Explanations
 
 ### 1. Basic collisions
